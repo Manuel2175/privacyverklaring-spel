@@ -1,2 +1,234 @@
-# privacyverklaring-spel
-Privacyverklaring voor een app, gepubliceerd als GitHub Pages-site.
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacyverklaring</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --line: #e5e7eb;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 32px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.03);
+    }
+
+    h1, h2, h3 {
+      color: var(--text);
+      line-height: 1.3;
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 10px 0 0;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 30px;
+    }
+
+    .small {
+      font-size: 0.92rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .notice {
+      background: var(--accent-soft);
+      border: 1px solid #bfdbfe;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-top: 24px;
+      color: #1e3a8a;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 22px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Privacyverklaring</h1>
+
+      <div class="meta">
+        <strong>[SPELNAAM]</strong><br />
+        Laatst bijgewerkt: [DATUM]
+      </div>
+
+      <p>
+        Deze privacyverklaring legt uit hoe <strong>[SPELNAAM]</strong> (“het spel”, “de app”) omgaat met gegevens.
+        De app wordt aangeboden door <strong>[JOUW NAAM / BEDRIJFSNAAM]</strong>, gevestigd in
+        <strong>[PLAATS, LAND]</strong> (“wij”, “ons”).
+      </p>
+
+      <p>
+        Contact: <a href="mailto:[JOUW E-MAILADRES]">[JOUW E-MAILADRES]</a>
+      </p>
+
+      <h2>1. Welke gegevens verwerken wij?</h2>
+
+      <p><strong>Gegevens die wij zelf verzamelen:</strong> geen. Je hoeft geen account aan te maken en wij vragen niet om je naam, e-mailadres, locatie, contacten of foto's.</p>
+
+      <p><strong>Gegevens die op je apparaat blijven:</strong> je spelvoortgang, scores en instellingen worden lokaal op je apparaat opgeslagen. Wij ontvangen deze gegevens niet. Als je de app verwijdert, worden ze gewist.</p>
+
+      <p><strong>Gegevens die via advertenties worden verwerkt:</strong> de app toont advertenties via Google AdMob. Google en de advertentiepartners die via AdMob werken, kunnen daarbij de volgende gegevens verzamelen en gebruiken:</p>
+
+      <ul>
+        <li>advertentie-ID van je apparaat (Android Advertising ID)</li>
+        <li>IP-adres en een geschatte locatie die daaruit volgt</li>
+        <li>apparaatgegevens (model, besturingssysteem, taal, schermgrootte)</li>
+        <li>gegevens over hoe je met advertenties omgaat (getoond, bekeken, aangeklikt)</li>
+        <li>crash- en prestatiegegevens</li>
+      </ul>
+
+      <p>
+        Google gebruikt deze gegevens om advertenties te tonen, fraude te voorkomen en de advertentiedienst te verbeteren.
+        Meer informatie vind je in het privacybeleid van Google:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>
+        en
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a>.
+      </p>
+
+      <h2>2. Waarvoor gebruiken wij deze gegevens?</h2>
+
+      <ul>
+        <li>Het tonen van advertenties, waarmee wij het spel gratis kunnen aanbieden</li>
+        <li>Het toekennen van een beloning nadat je een advertentie hebt bekeken</li>
+        <li>Het voorkomen van misbruik en fraude door Google</li>
+      </ul>
+
+      <h2>3. Rechtsgrond (AVG)</h2>
+
+      <p>
+        Voor gepersonaliseerde advertenties in de Europese Economische Ruimte (EER) vragen wij je toestemming
+        (art. 6 lid 1 sub a AVG), via een toestemmingsvenster bij het eerste gebruik van de app.
+        Je kunt je keuze later wijzigen via <strong>[PLEK IN DE APP, bijvoorbeeld “Instellingen → Privacykeuzes”]</strong>.
+        Zonder toestemming kunnen wel niet-gepersonaliseerde advertenties worden getoond.
+      </p>
+
+      <h2>4. Delen met derden</h2>
+
+      <p>
+        Wij verkopen geen persoonsgegevens. Gegevens worden alleen verwerkt door:
+      </p>
+
+      <ul>
+        <li>Google AdMob (Google Ireland Limited / Google LLC), voor het tonen van advertenties</li>
+      </ul>
+
+      <p>
+        Google kan gegevens buiten de EER verwerken, onder andere in de Verenigde Staten, op basis van passende
+        waarborgen zoals standaardcontractbepalingen.
+      </p>
+
+      <h2>5. Bewaartermijn</h2>
+
+      <p>
+        Wij bewaren zelf geen persoonsgegevens. De bewaartermijnen van gegevens die Google verwerkt, bepaalt Google
+        (zie hun privacybeleid). Lokale spelgegevens blijven op je apparaat tot je ze wist of de app verwijdert.
+      </p>
+
+      <h2>6. Je keuzes en rechten</h2>
+
+      <p>
+        Op grond van de AVG heb je het recht op inzage, correctie, verwijdering, beperking, bezwaar en overdraagbaarheid
+        van je gegevens, en het recht om je gegeven toestemming in te trekken. Omdat wij zelf geen persoonsgegevens van je opslaan,
+        kunnen die rechten vooral richting Google worden uitgeoefend. Je kunt:
+      </p>
+
+      <ul>
+        <li>je advertentie-ID resetten of personalisatie uitzetten via Android-instellingen → Google → Advertenties</li>
+        <li>je toestemmingskeuze wijzigen in de app (zie punt 3)</li>
+        <li>contact met ons opnemen via <a href="mailto:[JOUW E-MAILADRES]">[JOUW E-MAILADRES]</a></li>
+        <li>een klacht indienen bij de Autoriteit Persoonsgegevens (<a href="https://autoriteitpersoonsgegevens.nl" target="_blank" rel="noopener noreferrer">autoriteitpersoonsgegevens.nl</a>), of bij de toezichthouder in jouw land</li>
+      </ul>
+
+      <h2>7. Kinderen</h2>
+
+      <p>
+        Het spel is niet bedoeld voor kinderen jonger dan <strong>[13 / 16]</strong> jaar, en wij verzamelen niet bewust gegevens van hen.
+        Heb je het idee dat een kind toch gegevens heeft gedeeld, neem dan contact met ons op.
+      </p>
+
+      <h2>8. Beveiliging</h2>
+
+      <p>
+        Gegevens die via advertenties worden verwerkt, worden beveiligd door Google. Lokale gegevens staan in de app-opslag van je apparaat,
+        die door Android wordt afgeschermd van andere apps.
+      </p>
+
+      <h2>9. Wijzigingen</h2>
+
+      <p>
+        Wij kunnen deze verklaring aanpassen, bijvoorbeeld als wij nieuwe functies of diensten toevoegen. De datum bovenaan geeft de laatste versie aan.
+        Bij ingrijpende wijzigingen laten wij dat in de app weten.
+      </p>
+
+      <h2>10. Contact</h2>
+
+      <p>
+        Vragen over deze privacyverklaring? Mail naar <a href="mailto:[JOUW E-MAILADRES]">[JOUW E-MAILADRES]</a>.
+      </p>
+
+      <div class="notice">
+        <strong>Opmerking:</strong> deze pagina is een startpunt. Vul de placeholder-waarden zelf aan, zoals spelnaam, bedrijfsnaam, plaats, e-mailadres en je gewenste leeftijdsgrens.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
